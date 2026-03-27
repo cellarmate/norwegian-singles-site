@@ -36,22 +36,36 @@
     <a href="/" class="back">&larr; Home</a>
     <h1>Privacy Policy</h1>
     <p class="subtitle">Norwegian Singles</p>
-    <p class="effective">Effective date: January 1, 2025</p>
+    <p class="effective">Effective date: March 27, 2026</p>
 
     <h2>Overview</h2>
-    <p>Norwegian Singles ("the App") is developed by Sean Grapevine. This policy describes how the App handles your information. The short version: the App does not collect, store, or transmit any personal data.</p>
+    <p>Norwegian Singles ("the App") is developed by Sean Grapevine / CellarMate LLC. This policy describes how the App handles your information. We collect the minimum data necessary to provide the App's features and do not sell your data to anyone.</p>
 
-    <h2>Data Collection</h2>
-    <p>The App does not collect any personal information. Specifically:</p>
+    <h2>Data We Store on Your Device</h2>
+    <p>The following data is stored locally on your device and never transmitted to our servers:</p>
     <ul>
-      <li>No account or sign-up is required</li>
-      <li>No personal data is transmitted to any server</li>
-      <li>No analytics, tracking, or advertising frameworks are included</li>
-      <li>No cookies or similar technologies are used</li>
+      <li>Race results, VDOT history, and training paces</li>
+      <li>Weekly schedules, race plans, and ongoing training history</li>
+      <li>Saved workouts and preferences</li>
+      <li>Activity matching data and completion records</li>
     </ul>
 
-    <h2>Data Storage</h2>
-    <p>All data you enter into the App&mdash;including race results, VDOT values, saved workouts, and preferences&mdash;is stored locally on your device using on-device storage. This data never leaves your device and is not accessible to anyone other than you.</p>
+    <h2>Third-Party Integrations</h2>
+    <p>The App offers optional integrations with the following third-party services. These are entirely opt-in &mdash; you choose whether to connect them.</p>
+
+    <h3 style="font-size: 17px; margin: 20px 0 8px;">Strava</h3>
+    <p>When you connect Strava, the App accesses your activity data (runs, distances, times) to match completed activities to your training plan. We store your Strava OAuth tokens on our server to maintain the connection. We do not access or store any data beyond what is needed for activity matching.</p>
+
+    <h3 style="font-size: 17px; margin: 20px 0 8px;">intervals.icu</h3>
+    <p>When you connect intervals.icu, the App pushes structured workouts to your intervals.icu calendar and reads wellness data (training load metrics: CTL, ATL, TSB) to power training progression suggestions. We may also read and write sport settings (e.g. threshold pace) to enable pace targets on your watch. We store your intervals.icu OAuth tokens on our server to maintain the connection.</p>
+
+    <h2>Our Server</h2>
+    <p>The App communicates with a server hosted on Railway to facilitate third-party integrations. Our server stores:</p>
+    <ul>
+      <li>OAuth tokens for Strava and intervals.icu (encrypted at rest)</li>
+      <li>Your app-generated user ID (not your name, email, or any personally identifying information)</li>
+    </ul>
+    <p>Our server acts as a pass-through for API calls to Strava and intervals.icu. We do not store your workout data, activity data, or wellness data on our server &mdash; it is fetched on demand and delivered directly to your device.</p>
 
     <h2>Apple HealthKit</h2>
     <p>The App may request access to Apple HealthKit to read workout data and write completed workouts. HealthKit data is handled exclusively by the iOS operating system and is never transmitted to external servers by the App. You can manage HealthKit permissions at any time in your device's Settings.</p>
@@ -59,17 +73,22 @@
     <h2>Apple Watch</h2>
     <p>The App can send structured workout plans to a paired Apple Watch using Apple's WorkoutKit framework. This communication occurs entirely on-device between your iPhone and Apple Watch. No workout data is transmitted externally.</p>
 
-    <h2>Third-Party Services</h2>
-    <p>The App does not integrate with any third-party analytics, advertising, or data collection services. The App does not share data with any third parties.</p>
+    <h2>Data Retention and Deletion</h2>
+    <p>Data stored on your device can be deleted at any time using the "Delete All Data" option in the App's Profile tab. This immediately removes all local data including training history, saved workouts, and preferences.</p>
+    <p>To delete server-side data (OAuth tokens and connection records), email <a href="mailto:sean@norwegiansingles.app">sean@norwegiansingles.app</a> with your request. Server-side data will be deleted within 30 days of your request.</p>
+    <p>You can also disconnect Strava or intervals.icu at any time from the Profile tab, which revokes the App's access and removes the stored tokens from our server.</p>
+
+    <h2>Analytics and Tracking</h2>
+    <p>The App does not include any third-party analytics, advertising, or tracking frameworks. We do not track your usage, location, or behavior within the App.</p>
 
     <h2>Children's Privacy</h2>
-    <p>The App does not collect personal information from anyone, including children under the age of 13.</p>
+    <p>The App does not knowingly collect personal information from children under the age of 13.</p>
 
     <h2>Changes to This Policy</h2>
-    <p>If this privacy policy is updated, the revised version will be posted on this page with an updated effective date. Because the App collects no data, changes are expected to be infrequent.</p>
+    <p>If this privacy policy is updated, the revised version will be posted on this page with an updated effective date.</p>
 
     <h2>Contact</h2>
-    <p>If you have questions about this privacy policy, you can contact us at:</p>
+    <p>If you have questions about this privacy policy or want to request data deletion, contact us at:</p>
     <p><a href="mailto:sean@norwegiansingles.app">sean@norwegiansingles.app</a></p>
 
     <hr class="divider">
